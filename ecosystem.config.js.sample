@@ -4,7 +4,7 @@ module.exports = {
       name: 'yjs-server',
       script: './node_modules/.bin/y-websocket',
       env: {
-        HOST: 'localhost',
+        HOST: '127.0.0.1',
         PORT: 6010,
         YPERSISTENCE: './data',
       },

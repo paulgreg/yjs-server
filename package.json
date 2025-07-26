@@ -4,7 +4,7 @@
   "description": "",
   "author": "",
   "scripts": {
-    "dev": "HOST=localhost PORT=6010 YPERSISTENCE=./data y-websocket"
+    "dev": "HOST=127.0.0.1 PORT=6010 YPERSISTENCE=./data y-websocket"
   },
   "dependencies": {
     "@y/websocket-server": "^0.1.1"
